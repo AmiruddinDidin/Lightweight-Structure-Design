@@ -440,26 +440,6 @@ This is a *bottom-up*, geometry-based estimate. It is **not** one of the Class I
 
 ---
 
-### §11 ATR72-600 Mass Moments of Inertia
-
-The mass moments of inertia are estimated with Roskam's non-dimensional radii of gyration [1, Part V; 2]:
-
-$$
-I_{xx} = m\left(\frac{b\,\bar R_x}{2}\right)^2, \qquad
-I_{yy} = m\left(\frac{l\,\bar R_y}{2}\right)^2, \qquad
-I_{zz} = m\left(\frac{(b + l)\,\bar R_z}{4}\right)^2,
-$$
-
-where $b$ is the span, $l$ the overall length, $m$ the mass, and $\bar R_x, \bar R_y, \bar R_z$ the radii of gyration for the aircraft class. With $W = mg$, these are identical to Roskam's form $I = W\,(\ldots)^2/(4g)$. The notebook uses $m = 23\,000$ kg, $b = 27.0$ m, $l = 27.43$ m, and $(\bar R_x, \bar R_y, \bar R_z) = (0.235, 0.363, 0.416)$.
-
-The same section computes three auxiliary quantities:
-
-- the trim pitching moment from thrust-line offset, $M_T = T_{cruise}\,z_T$, assuming cruise thrust is 20 % of maximum thrust;
-- the cruise speed converted to m/s;
-- the weight $W = mg$.
-
----
-
 ## 4. Principal Assumptions and Limitations
 
 1. **Station-wise analysis.** Each station is analysed as an isolated cross-section. Taper effects on shear flow and load redistribution at concentrated-load stations are neglected.

@@ -1,6 +1,6 @@
 # Preliminary Structural Sizing and Strength Verification of a Semi-Monocoque Wing Box
 
-**Technical documentation for `APSR_refined.ipynb`**
+**Technical documentation for `APSR_Didin Amiruddin_13623037.ipynb`**
 
 Didin Amiruddin (13623037), Kelompok 4
 

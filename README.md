@@ -128,8 +128,8 @@ The materials are assigned as follows:
 
 | Component | Alloy | $\sigma_y$ (MPa) | $\rho$ (kg/m³) |
 |---|---|---|---|
-| Upper skin | Al 2024 | 345 | 2780 |
-| Lower skin, spars, ribs | Al 7075 | 503 | 2810 |
+| Lower skin | Al 2024 | 345 | 2780 |
+| Upper skin, spars, ribs | Al 7075 | 503 | 2810 |
 | Stringers | Al 7475 | 421 | 2800 |
 
 A single modulus, $E = 71.7$ GPa with $\nu = 0.33$, is used for all alloys. For design-level work, allowables should be taken from the Metallic Materials Properties Development and Standardization handbook (MMPDS) [12] for the specific temper, product form and thickness.
